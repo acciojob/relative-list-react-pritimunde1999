@@ -7,10 +7,10 @@ const App = () => {
     <div id="main">
                {/* Do not remove the main div */}
         
-        <ol key={"relativeList"}>
+        <ol id={"relativeList"}>
           {
              arr.map((ele)=>(
-              <li key={`relativeListItem${itemNo++}`}>{ele}</li>
+              <li id={`relativeListItem${itemNo++}`}>{ele}</li>
              ))
           }
         </ol>
